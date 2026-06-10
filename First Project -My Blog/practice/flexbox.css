@@ -1,0 +1,37 @@
+p{
+    background-color: goldenrod;
+    padding:10px;
+    font-weight:bold;
+}
+
+.container-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.container-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.container-flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.container-flex-bewtween{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.container-around{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.container-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
